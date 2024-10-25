@@ -1,0 +1,152 @@
+[
+  {
+    "players_id": 1,
+    "player_name": "Shahid Afridi",
+    "img": "https://i.ibb.co.com/F5qstsz/shahid-Afridi.jpg",
+    "player_country": "Pakistan",
+    "player_category": "All-rounder",
+    "rating": 9.8,
+    "batting_style": "Right-hand bat",
+    "price": "$2500000"
+  },
+  {
+    "players_id": 2,
+    "player_name": "Mohammad Amir",
+    "img": "https://i.ibb.co.com/rZPmQwd/m-Amir.jpg",
+    "player_country": "Pakistan",
+    "player_category": "Bowler",
+    "rating": 9.5,
+    "batting_style": "Right-hand bat",
+    "price": "$1800000"
+  },
+  {
+    "players_id": 3,
+    "player_name": "AB de Villiers",
+    "img": "https://i.ibb.co.com/60TN8FM/AB-de-Villiers.jpg",
+    "player_country": "South Africa",
+    "player_category": "Batsman",
+    "rating": 9.7,
+    "batting_style": "Right-hand bat",
+    "price": "$2200000"
+  },
+  {
+    "players_id": 4,
+    "player_name": "Rashid Khan",
+    "img": "https://i.ibb.co.com/SVRjpdD/Rashid-Khan.jpg",
+    "player_country": "Afghanistan",
+    "player_category": "Bowler",
+    "rating": 9.4,
+    "batting_style": "Right-hand bat",
+    "price": "$1700000"
+  },
+  {
+    "players_id": 5,
+    "player_name": "Moeen Ali",
+    "img": "https://i.ibb.co.com/5F48p7H/moeen-ali.png",
+    "player_country": "Australia",
+    "player_category": "All-rounder",
+    "rating": 9.6,
+    "batting_style": "Left-hand bat",
+    "price": "$2300000"
+  },
+  {
+    "players_id": 6,
+    "player_name": "Ben Stokes",
+    "img": "https://i.ibb.co.com/H22fq3T/Ben-Stokes.jpg",
+    "player_country": "England",
+    "player_category": "All-rounder",
+    "rating": 9.5,
+    "batting_style": "Left-hand bat",
+    "price": "$2000000"
+  },
+  {
+    "players_id": 7,
+    "player_name": "Kane Williamson",
+    "img": "https://i.ibb.co.com/2NZrmL9/williamson.jpg",
+    "player_country": "New Zealand",
+    "player_category": "Batsman",
+    "rating": 9.4,
+    "batting_style": "Right-hand bat",
+    "price": "$1900000"
+  },
+  {
+    "players_id": 8,
+    "player_name": "Andre Russell",
+    "img": "https://i.ibb.co.com/GH35yDp/russell.jpg",
+    "player_country": "West Indies",
+    "player_category": "All-rounder",
+    "rating": 9.3,
+    "batting_style": "Right-hand bat",
+    "price": "$1700000"
+  },
+  {
+    "players_id": 9,
+    "player_name": "Sakib Al-Hasan",
+    "img": "https://i.ibb.co.com/t4HJ4pp/sakib.jpg",
+    "player_country": "Bangladesh",
+    "player_category": "All-rounder",
+    "rating": 9.2,
+    "batting_style": "Left-hand bat",
+    "price": "$3100000"
+  },
+  {
+    "players_id": 10,
+    "player_name": "Moshfiqur Rahim",
+    "img": "https://i.ibb.co.com/sqqjs1y/rahim.jpg",
+    "player_country": "Bangladesh",
+    "player_category": "Batsman",
+    "rating": 9.5,
+    "batting_style": "Right-hand bat",
+    "price": "$2900000"
+  },
+  {
+    "players_id": 11,
+    "player_name": "Mustafizur Rahman",
+    "img": "https://i.ibb.co.com/Bf8SGgf/mustafizur.jpg",
+    "player_country": "Bangladesh",
+    "player_category": "Bowler",
+    "rating": 9.4,
+    "batting_style": "Left-hand bat",
+    "price": "$2000000"
+  },
+  {
+    "players_id": 12,
+    "player_name": "Babar Azam",
+    "img": "https://i.ibb.co.com/RNW482P/Babar-Azam.jpg",
+    "player_country": "Pakistan",
+    "player_category": "Batsman",
+    "rating": 9.6,
+    "batting_style": "Right-hand bat",
+    "price": "$3300000"
+  },
+  {
+    "players_id": 13,
+    "player_name": "Faf du Plessis",
+    "img": "https://i.ibb.co.com/1GqJc9x/du-plessis.jpg",
+    "player_country": "South Africa",
+    "player_category": "Batsman",
+    "rating": 9.3,
+    "batting_style": "Right-hand bat",
+    "price": "$2800000"
+  },
+  {
+    "players_id": 14,
+    "player_name": "Tamim Iqubal",
+    "img": "https://i.ibb.co.com/YydqvVs/tamim.jpg",
+    "player_country": "Bangladesh",
+    "player_category": "Batsman",
+    "rating": 9.4,
+    "batting_style": "Left-hand bat",
+    "price": "$3200000"
+  },
+  {
+    "players_id": 15,
+    "player_name": "Mahmudullah ",
+    "img": "https://i.ibb.co.com/tpwnxHz/mahmudullah.jpg",
+    "player_country": "Bangladesh",
+    "player_category": "All-rounder",
+    "rating": 9.2,
+    "batting_style": "Right-hand bat",
+    "price": "$2900000"
+  }
+]
