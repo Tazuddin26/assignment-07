@@ -7,6 +7,7 @@
     "player_category": "All-rounder",
     "rating": 9.8,
     "batting_style": "Right-hand bat",
+    "bowling_style": "Leg Spiner",
     "price": "$2500000"
   },
   {
@@ -16,7 +17,8 @@
     "player_country": "Pakistan",
     "player_category": "Bowler",
     "rating": 9.5,
-    "batting_style": "Right-hand bat",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm Fast medium",
     "price": "$1800000"
   },
   {
@@ -27,16 +29,18 @@
     "player_category": "Batsman",
     "rating": 9.7,
     "batting_style": "Right-hand bat",
+    "bowling_style": "Wicket-Keeper",
     "price": "$2200000"
   },
   {
     "players_id": 4,
     "player_name": "Rashid Khan",
-    "img": "https://i.ibb.co.com/SVRjpdD/Rashid-Khan.jpg",
+    "img": "https://i.ibb.co.com/BLL6NKY/rahid-khan.webp",
     "player_country": "Afghanistan",
     "player_category": "Bowler",
     "rating": 9.4,
     "batting_style": "Right-hand bat",
+    "bowling_style": "Right-Hand Leg Spinner",
     "price": "$1700000"
   },
   {
@@ -47,6 +51,7 @@
     "player_category": "All-rounder",
     "rating": 9.6,
     "batting_style": "Left-hand bat",
+    "bowling_style": "Right-Hand Off Spinner",
     "price": "$2300000"
   },
   {
@@ -56,7 +61,8 @@
     "player_country": "England",
     "player_category": "All-rounder",
     "rating": 9.5,
-    "batting_style": "Left-hand bat",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm Fast medium",
     "price": "$2000000"
   },
   {
@@ -77,6 +83,7 @@
     "player_category": "All-rounder",
     "rating": 9.3,
     "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm Fast medium",
     "price": "$1700000"
   },
   {
@@ -87,16 +94,18 @@
     "player_category": "All-rounder",
     "rating": 9.2,
     "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm leg Spinner",
     "price": "$3100000"
   },
   {
     "players_id": 10,
     "player_name": "Moshfiqur Rahim",
-    "img": "https://i.ibb.co.com/sqqjs1y/rahim.jpg",
+    "img": "https://i.ibb.co.com/zHr2Pd2/mushfiqur-rahim.jpg",
     "player_country": "Bangladesh",
     "player_category": "Batsman",
     "rating": 9.5,
     "batting_style": "Right-hand bat",
+    "bowling_style": "Wicket-Keeper",
     "price": "$2900000"
   },
   {
@@ -107,6 +116,7 @@
     "player_category": "Bowler",
     "rating": 9.4,
     "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm Fast medium",
     "price": "$2000000"
   },
   {
@@ -122,7 +132,7 @@
   {
     "players_id": 13,
     "player_name": "Faf du Plessis",
-    "img": "https://i.ibb.co.com/1GqJc9x/du-plessis.jpg",
+    "img": "https://i.ibb.co.com/rs65mFq/du-plessis.jpg",
     "player_country": "South Africa",
     "player_category": "Batsman",
     "rating": 9.3,
@@ -147,6 +157,7 @@
     "player_category": "All-rounder",
     "rating": 9.2,
     "batting_style": "Right-hand bat",
+    "bowling_style": "Right-Hand Off Spinner",
     "price": "$2900000"
   }
 ]
