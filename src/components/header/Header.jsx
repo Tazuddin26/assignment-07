@@ -28,7 +28,7 @@ const Header = ({ playerCartPrice }) => {
               </li>
             </ul>
           </div>
-          <img className="" src="/src/assets/images/logo.png" alt="" />
+          <img className="" src="./images/logo.png" alt="" />
         </div>
 
         <div className="navbar-end">

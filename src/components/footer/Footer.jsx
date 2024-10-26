@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <div className="">
-      <div className="md:border border-white rounded-2xl md:mx-14 mx-4 relative z-40 md:top-40 top-36 py-4 ">
-        <div className="border px-10 w-full md:h-[300px] h-[250px] bg-gradient-to-r from-teal-100  to-amber-100 container mx-auto rounded-2xl ">
+      <div className="md:border border-white rounded-2xl md:mx-14 mx-4 relative z-[60]  md:top-40 top-36 py-4 ">
+        <div className="border px-10 w-full md:h-[300px] h-[250px] bg-white bg-[url('./images/bg-shadow.png')] container mx-auto rounded-2xl ">
           <h1 className="text-3xl font-bold text-center md:mt-16 mt-4">
             Subscribe to our Newsletter
           </h1>
@@ -23,11 +23,7 @@ const Footer = () => {
       </div>
       <div className="bg-[#06091A] absolute ">
         <div className="flex justify-center items-center container mx-auto">
-          <img
-            src="/src/assets/images/logo-footer.png"
-            alt=""
-            className="mt-48"
-          />
+          <img src="./images/logo-footer.png" alt="" className="mt-48" />
         </div>
         <footer className="footer text-base-content w-full md:p-10 md:flex justify-between">
           <div className="md:w-2/3 md:flex justify-between mx-10 mt-6 md:mt-0">

@@ -2,10 +2,14 @@
 import { ToastContainer } from "react-toastify";
 const Banner = ({ handleAddToClaim }) => {
   return (
-    <div className="container mx-auto rounded-2xl h-[450px] bg-[#131313] bg-[url('/src/assets/images/bg-shadow.png')] ">
+    <div className="container mx-auto rounded-2xl h-[450px] bg-[#131313] bg-[url('./images/bg-shadow.png')] ">
       <div className=" ">
         <div className="flex justify-center items-center mb-6">
-          <img className="mt-8 object-cover" src="/src/assets/images/banner-main.png" alt="" />
+          <img
+            className="mt-8 object-cover"
+            src="./images/banner-main.png"
+            alt=""
+          />
         </div>
 
         <div className="text-center space-y-4 ">
