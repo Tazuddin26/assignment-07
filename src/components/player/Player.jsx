@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { FaUser, FaFlag } from "react-icons/fa";
-const Player = ({ player }) => {
+const Player = ({ player, handleAddToSelected }) => {
   const {
     img,
     player_name,
@@ -13,9 +13,13 @@ const Player = ({ player }) => {
   } = player;
 
   return (
-    <div className="card card-compact bg-base-100 w-96 shadow-xl mb-6 mx-auto border p-4">
-      <figure>
-        <img className="w-full h-[250px] object-cover" src={img} alt="Shoes" />
+    <div className="card card-compact bg-base-100 w-96 mx-auto shadow-xl mb-8 border p-4">
+      <figure className="">
+        <img
+          className="w-full h-[250px] object-cover"
+          src={img}
+          alt="Palyers"
+        />
       </figure>
       <div className="card-body">
         <h2 className="card-title">
@@ -45,7 +49,10 @@ const Player = ({ player }) => {
         </div>
         <div className="card-actions justify-end items-center">
           <p className="font-bold">Price: {price}</p>
-          <button className="px-6 py-2 border rounded-xl bg-slate-50">
+          <button
+            onClick={() => handleAddToSelected(player)}
+            className="btn border rounded-xl "
+          >
             Choose Player
           </button>
         </div>

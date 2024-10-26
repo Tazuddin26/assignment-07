@@ -1,4 +1,5 @@
-/* eslint-disable no-undef */
+/* eslint-disable react/prop-types */
+import { ToastContainer } from "react-toastify";
 const Banner = ({ handleAddToClaim }) => {
   return (
     <div className="container mx-auto rounded-2xl bg-gradient-to-r from-slate-600 via-slate-950 to-slate-600 h-[450px]">
@@ -14,15 +15,17 @@ const Banner = ({ handleAddToClaim }) => {
           <p className="text-gray-400 text-xl font-semibold">
             Beyond Boundaries Beyond Limits
           </p>
-
-          <button
-            onClick={() => handleAddToClaim(60000000)}
-            className="btn btn-outline border border-[#E7FE29] hover:text-black rounded-xl px-1 p-1 hover:bg-[#E7FE29]"
-          >
-            <p className=" bg-[#E7FE29] px-6 py-3 rounded-lg font-bold">
-              Claim Free Credit
-            </p>
-          </button>
+          <div>
+            <button
+              onClick={() => handleAddToClaim(6000000)}
+              className="btn btn-outline border border-[#E7FE29] hover:text-black rounded-xl px-1 p-1 hover:bg-[#E7FE29]"
+            >
+              <p className=" bg-[#E7FE29] px-6 py-3 rounded-lg font-bold">
+                Claim Free Credit
+              </p>
+            </button>
+            <ToastContainer/>
+          </div>
         </div>
       </div>
     </div>
