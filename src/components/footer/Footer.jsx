@@ -23,9 +23,13 @@ const Footer = () => {
       </div>
       <div className="bg-[#06091A] absolute ">
         <div className="flex justify-center items-center container mx-auto">
-          <img src="/src/assets/logo-footer.png" alt="" className="mt-48" />
+          <img
+            src="/src/assets/images/logo-footer.png"
+            alt=""
+            className="mt-48"
+          />
         </div>
-        <footer className="footer  text-base-content w-full md:p-10 md:flex justify-between">
+        <footer className="footer text-base-content w-full md:p-10 md:flex justify-between">
           <div className="md:w-2/3 md:flex justify-between mx-10 mt-6 md:mt-0">
             <nav className="md:w-1/3 text-white md:text-start md:ml-20">
               <h6 className="footer-title mb-4 text-base">About Us</h6>
@@ -78,8 +82,8 @@ const Footer = () => {
               </div>
             </fieldset>
           </form>
-              </footer>
-              <hr className="border-gray-600 md:mt-0 mt-4"/>
+        </footer>
+        <hr className="border-gray-600 md:mt-0 mt-4" />
         <p className="md:text-center text-gray-500  md:mx-0 p-4 md:p-0 ml-6 md:ml-6 mb-6 mt-4 ">
           @2024 Your Company All Rights Reserved.
         </p>

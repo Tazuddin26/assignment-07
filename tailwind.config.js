@@ -4,7 +4,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        my: "url('/src/asset/bg-shadow.png')",
+      },
+    },
   },
   plugins: [require("daisyui")],
 };

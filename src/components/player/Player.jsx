@@ -41,14 +41,16 @@ const Player = ({ player, handleAddToSelected }) => {
         </div>
         <hr />
         <div className="space-y-2">
-          <p className="font-bold">Rating {rating}</p>
+          <p className="font-bold flex items-center">
+            Rating <span className="text-amber-700 ml-2 ">{rating}</span>
+          </p>
           <div className="flex items-center">
             <p className="font-bold">{batting_style}</p>
             <p className="text-end text-gray-500">{bowling_style}</p>
           </div>
         </div>
         <div className="card-actions justify-end items-center">
-          <p className="font-bold">Price: {price}</p>
+          <p className="font-bold">Price: ${price}</p>
           <button
             onClick={() => handleAddToSelected(player)}
             className="btn border rounded-xl "

@@ -1,13 +1,11 @@
 /* eslint-disable react/prop-types */
 import PlayerCart from "../playercart/PlayerCart";
-// import Players from "../players/Players";
 
 const SelectedPlayersCart = ({
   selectedPlayerCart,
   handleDelete,
-   handleAddMorePlayer,
   playerCartPrice,
-
+  handleToggleBtn,
 }) => {
   return (
     <div>
@@ -20,10 +18,13 @@ const SelectedPlayersCart = ({
         />
       ))}
       <div className="p-4">
-        <button onClick={handleAddMorePlayer} className="btn bg-[#E7FE29]">
+        <button
+          onClick={() => handleToggleBtn("allPlayer")}
+          className="btn bg-[#E7FE29]"
+        >
           Add More Player
         </button>
-       {}
+        {}
       </div>
     </div>
   );
