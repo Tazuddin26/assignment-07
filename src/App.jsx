@@ -30,12 +30,13 @@ function App() {
   };
   const handleAddToClaim = (coins) => {
     toast.success("Credit Added to your Account!", {
-      position: "top-center"
+      position: "top-center",
     });
     setplayerCartPrice(playerCartPrice + coins);
   };
 
-  const handleDelete = (id) => {
+  const handleDelete = (id, price) => {
+    setplayerCartPrice(playerCartPrice +price)
     setSelectedPlayerCart(
       selectedPlayerCart.filter((deletePlayer) => deletePlayer.id !== id)
     );
@@ -46,11 +47,40 @@ function App() {
   };
 
   const handleAddToSelected = (player) => {
-    setplayerCartPrice(playerCartPrice - player.price);
-    if (selectedPlayerCart.find((onePlayer) => onePlayer.id === player.id)) {
-      alert("All ready Player is Exiest");
+    {
+      player.price > playerCartPrice
+        ? toast.warning(
+            "Not enough Money to buy this player.Claim Some Credit!",
+            {
+              position: "top-center",
+            }
+          )
+        : "";
+    }
+    if (player.price > playerCartPrice) {
+      return;
+    }
+
+    if (selectedPlayerCart.length >= 6) {
+      toast.warning("players is already 6! Cannot add more players.", {
+        position: "top-center",
+      });
+      return;
+    }
+    const isPlayer = selectedPlayerCart.find(
+      (onePlayer) => onePlayer.id === player.id
+    );
+    if (isPlayer) {
+      toast.warning("players is already Added!", {
+        position: "top-center",
+      });
+      return;
     } else {
+      toast.success(`Congrates !! ${player.player_name} is now in Your Squad`, {
+        position: "top-center",
+      });
       setSelectedPlayerCart([...selectedPlayerCart, player]);
+      setplayerCartPrice(playerCartPrice - player.price);
     }
   };
 

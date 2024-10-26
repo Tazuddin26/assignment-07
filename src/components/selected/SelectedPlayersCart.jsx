@@ -1,7 +1,12 @@
 /* eslint-disable react/prop-types */
 import PlayerCart from "../playercart/PlayerCart";
 
-const SelectedPlayersCart = ({ selectedPlayerCart, handleDelete,handleAddMorePlayer }) => {
+const SelectedPlayersCart = ({
+  selectedPlayerCart,
+  handleDelete,
+  handleAddMorePlayer,
+  playerCartPrice,
+}) => {
   return (
     <div>
       {selectedPlayerCart.map((playerCart, idx) => (
@@ -9,6 +14,7 @@ const SelectedPlayersCart = ({ selectedPlayerCart, handleDelete,handleAddMorePla
           key={idx}
           playerCart={playerCart}
           handleDelete={handleDelete}
+          playerCartPrice={playerCartPrice}
         />
       ))}
       <div className="p-4">
