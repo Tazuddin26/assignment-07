@@ -1,8 +1,19 @@
 /* eslint-disable react/prop-types */
 import { ToastContainer } from "react-toastify";
+import bannerImage from "../../assets/bg-shadow.png";
 const Banner = ({ handleAddToClaim }) => {
+  const bgStyle = {
+    backgroundImage: `url("${bannerImage}")`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "h-[450px]",
+    width: "100%",
+  };
   return (
-    <div className="container mx-auto rounded-2xl h-[450px] bg-[#131313] bg-[url('./images/bg-shadow.png')] ">
+    <div
+      className="container mx-auto rounded-2xl h-[450px] bg-[#131313]  "
+      style={bgStyle}
+    >
       <div className=" ">
         <div className="flex justify-center items-center mb-6">
           <img

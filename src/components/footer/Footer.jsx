@@ -1,8 +1,19 @@
+import bannerImage from "../../assets/bg-shadow.png";
 const Footer = () => {
+  const bgStyle = {
+    backgroundImage: `url("${bannerImage}")`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    height: "md:h-[300px] h-[250px]",
+    width: "100%",
+  };
   return (
     <div className="">
       <div className="md:border border-white rounded-2xl md:mx-14 mx-4 relative z-[60]  md:top-40 top-36 py-4 ">
-        <div className="border px-10 w-full md:h-[300px] h-[250px] bg-white bg-[url('./images/bg-shadow.png')] container mx-auto rounded-2xl ">
+        <div
+          className="border px-10 w-full md:h-[300px] h-[250px] bg-white container mx-auto rounded-2xl "
+          style={bgStyle}
+        >
           <h1 className="text-3xl font-bold text-center md:mt-16 mt-4">
             Subscribe to our Newsletter
           </h1>
