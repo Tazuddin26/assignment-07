@@ -97,7 +97,7 @@ function App() {
       <Header playerCartPrice={playerCartPrice} />
       <Banner handleAddToClaim={handleAddToClaim} />
       <div className="container mx-auto border rounded-xl mt-6">
-        <div className="m-4 md:flex justify-between items-center">
+        <div className="m-4 md:flex justify-between items-center mx-6">
           <h1 className="md:text-3xl font-bold text-center md:text-left">
             {toggleBtn.allPlayer
               ? "Available Player"
