@@ -9,7 +9,7 @@ const Players = ({ handleAddToSelected, handleAddToCartPrice}) => {
       .then((data) => setPlayers(data));
   }, []);
   return (
-    <div className="mt-4 rounded-2xl ">
+    <div className="mt-4 rounded-2xl bg-red-200">
       <div className="grid md:grid-cols-3 grid-cols-1 mt-6">
         {players.map((onePlayer, id) => (
           <Player

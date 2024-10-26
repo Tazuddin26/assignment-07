@@ -3,7 +3,7 @@ import { BsCoin } from "react-icons/bs";
 import { RiMenu2Fill } from "react-icons/ri";
 const Header = ({ playerCartPrice }) => {
   return (
-    <div className="container mx-auto sticky top-0">
+    <div className="container mx-auto">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">

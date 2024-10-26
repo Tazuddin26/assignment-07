@@ -9,7 +9,8 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
   const [playerCartPrice, setplayerCartPrice] = useState(0);
   const [selectedPlayerCart, setSelectedPlayerCart] = useState([]);
-  const [showPlayer, setShowPlayer] = useState(false);
+  // const [showAddMorePlayer, setShowAddMorePlayer] = useState(false);
+  
   const [toggleBtn, setToggleBtn] = useState({
     allPlayer: true,
     status: "allPlayer",
@@ -36,15 +37,22 @@ function App() {
   };
 
   const handleDelete = (id, price) => {
+    if (SelectedPlayersCart) {
+      toast.warning("Player Removed!", {
+        position: "top-center",
+      });
+    }
     setplayerCartPrice(playerCartPrice +price)
     setSelectedPlayerCart(
       selectedPlayerCart.filter((deletePlayer) => deletePlayer.id !== id)
     );
   };
 
-  const handleAddMorePlayer = () => {
-    setShowPlayer(!showPlayer);
-  };
+//   const handleAddMorePlayer = () => {
+  
+//     setShowAddMorePlayer(showAddMorePlayer);
+// console.log(showAddMorePlayer)
+//   };
 
   const handleAddToSelected = (player) => {
     {
@@ -89,17 +97,17 @@ function App() {
       <Header playerCartPrice={playerCartPrice} />
       <Banner handleAddToClaim={handleAddToClaim} />
       <div className="container mx-auto border rounded-xl mt-6">
-        <div className="m-4 flex justify-between items-center">
-          <h1 className="text-3xl font-bold">
+        <div className="m-4 md:flex justify-between items-center">
+          <h1 className="md:text-3xl font-bold text-center md:text-left">
             {toggleBtn.allPlayer
               ? "Available Player"
               : `Selected Player (${selectedPlayerCart.length}/6)`}
           </h1>
-          <div className="join border">
+          <div className="join border m-4 md:m-0 ml-14 md:ml-0">
             <button
               onClick={() => handleToggleBtn("allPlayer")}
               className={`${
-                toggleBtn.allPlayer ? "btn px-8 bg-[#E7FE29]" : "join-item px-8"
+                toggleBtn.allPlayer ? "btn px-8 bg-[#E7FE29] " : "join-item px-8"
               } `}
             >
               Available
@@ -112,7 +120,7 @@ function App() {
                   : "bg-[#E7FE29] join-item px-8 btn"
               }`}
             >
-              <p>Selected {selectedPlayerCart.length}</p>
+              <p>Selected ({selectedPlayerCart.length})</p>
             </button>
           </div>
         </div>
@@ -126,7 +134,7 @@ function App() {
           <SelectedPlayersCart
             selectedPlayerCart={selectedPlayerCart}
             handleDelete={handleDelete}
-            handleAddMorePlaye={handleAddMorePlayer}
+            // handleAddMorePlayer={handleAddMorePlayer}
           />
         )}
       </div>
